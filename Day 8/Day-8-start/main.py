@@ -26,11 +26,10 @@
 # greet_with_name()
 
 #Greeting with name and location
-name=input("\nWhats your name please? ")
-location = input("\nWhere are you from? ")
-def greet_with_name():
+♥
+#Method 3
+def greet(name, location):
   print (f"\nHi {name}! You are from {location}")
-
   print (f"Habari yako {name}?")
   print (f"Jambo {name}!")
-greet_with_name()
+greet("Jack", "Nairobi")
