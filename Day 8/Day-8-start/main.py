@@ -12,15 +12,25 @@
 #greet("Solomon")
 
 #Method 2
-def greet():
-  print ("Hi")
-  print ("Habari")
-  print ("Jambo")
-greet()
+# def greet():
+#   print ("Hi")
+#   print ("Habari")
+#   print ("Jambo")
+# greet()
+# 
+# name=input("\nWhats your name please? ")
+# def greet_with_name():
+#   print (f"\nHi {name}!")
+#   print (f"Habari yako {name}?")
+#   print (f"Jambo {name}!")
+# greet_with_name()
 
+#Greeting with name and location
 name=input("\nWhats your name please? ")
+location = input("\nWhere are you from? ")
 def greet_with_name():
-  print (f"\nHi {name}!")
+  print (f"\nHi {name}! You are from {location}")
+
   print (f"Habari yako {name}?")
   print (f"Jambo {name}!")
 greet_with_name()
