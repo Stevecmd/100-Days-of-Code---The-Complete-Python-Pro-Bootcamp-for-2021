@@ -31,7 +31,7 @@ def encrypt(plain_text, shift):
     for eachLetter in plain_text:
         if eachLetter in alphabet:
             index = alphabet.index(eachLetter)
-            encrypt = (index + shift) % 26
+            encrypt = (index + shift) % 26 #modulo takes care of the bug
             cypher_text.append(encrypt)
             newLetter = alphabet[encrypt]
             result.append(newLetter)
@@ -51,7 +51,7 @@ def decrypt(code_text, shift):
     for eachLetter in code_text:
         if eachLetter in alphabet:
             index = alphabet.index(eachLetter)
-            decrypt = (index - shift) % 26
+            decrypt = (index - shift) % 26 #modulo takes care of the bug
             encrypted_text.append(decrypt)
             newLetter = alphabet[decrypt]
 
