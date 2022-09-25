@@ -16,7 +16,7 @@ def power(n1, n2):
     return n1 ** n2
 
 operations = {
-  "+": add,
+  "+": add, #symbol: Key
   "-": subtract,
   "*": multiply,
   "/": divide,
